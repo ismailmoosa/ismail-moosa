@@ -1,4 +1,4 @@
 angular.module('myAPP')
  .controller('AboutController', function ($scope) {
-        $scope.message = 'Look! I am an about page.';
+        $scope.message = 'This app can only do one task and its basic.lol';
  });
