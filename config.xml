@@ -6,7 +6,7 @@
     </feature>
     <name>To Do App</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A To-Do application that responds to the device ready event.
     </description>
     <author email="ismail.moosa@digitalskillsacademy.me" href="http://digitalskillsacademy.me">
         DSA-Ismail Moosa
