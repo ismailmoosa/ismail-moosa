@@ -7,7 +7,7 @@
      <title>Assignment 10th October 2017-Ismail Moosa</title>
     <script src='lib/angular.js' ></script>
     <script src='lib/angular-route.js'></script>
-    <!-- could not use local js file.routing did not want to work with both versions 1.2.0 and 1.6.0 -->
+    <!-- got local js file to work but the routing did not want to work with both versions 1.2.0 and 1.6.0 -->
     <link rel="stylesheet" type="text/css" href="css/todolist.css">
 
   </head>
@@ -24,7 +24,7 @@
        </div>
          <br> 
       </div>
-      
+      <!-- form to add to list-->
       <form ng-submit="todoAdd()">
           <input type="text" ng-model="Name" size="30" placeholder="Name">
           <br>
@@ -33,6 +33,7 @@
           <input type="submit" value="Add New">
       </form>
       <br>
+    <!--ng-repeat function instead of adding on each line-->
       <div ng-repeat="y in todoList">
           <input type="checkbox" ng-model="y.done">
           {{y.Name}}, {{y.Descr}}
