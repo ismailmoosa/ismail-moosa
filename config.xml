@@ -1,24 +1,45 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.dsa.todo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <feature name="Whitelist">
+<widget xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:cdv="http://cordova.apache.org/ns/1.0"
+        id="com.dsa.todo" 
+        version="1.0.0" 
+        versionCode = "10" >
+        <!-- versionCode is optional and Android only -->
+
+        <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
-    </feature>
-    <name>To Do App</name>
-    <description>
+        </feature>
+        <name>To Do App</name>
+        <description>
         A To-Do application that responds to the device ready event.
-    </description>
-    <author email="ismail.moosa@digitalskillsacademy.me" href="http://digitalskillsacademy.me">
+        </description>
+        <author email="ismail.moosa@digitalskillsacademy.me" href="http://digitalskillsacademy.me">
         DSA-Ismail Moosa
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <allow-intent href="market:*" />
-    <preference name="loglevel" value="DEBUG" />
-</widget>
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+        <allow-intent href="http://*/*" />
+        <allow-intent href="https://*/*" />
+        <allow-intent href="tel:*" />
+        <allow-intent href="sms:*" />
+        <allow-intent href="mailto:*" />
+        <allow-intent href="geo:*" />
+        <allow-intent href="market:*" />
+        <preference name="loglevel" value="DEBUG" />
+        <icon src="icons/To-Do-List-128.png" platform="android" qualifier="ldpi" />
+        <icon src="icons/To-Do-List-128.png" platform="android" qualifier="mdpi" />
+        <icon src="icons/To-Do-List-128.png" platform="android" qualifier="hdpi" />
+        <icon src="icons/To-Do-List-128.png" platform="android" qualifier="xhdpi" />
+        <icon src="icons/To-Do-List-128.png" platform="android" qualifier="xxhdpi" />
+        <icon src="icons/To-Do-List-128.png" platform="android" qualifier="xxxhdpi" />
+        <icon src="icons/To-Do-List-128.png" platform="android" qualifier="fr-xxhdpi" />
+        <splash src="icons/To-Do-List-128.png" platform="android" qualifier="ldpi" />
+        <splash src="icons/To-Do-List-128.png" platform="android" qualifier="mdpi" />
+        <splash src="icons/To-Do-List-128.png" platform="android" qualifier="hdpi" />
+        <splash src="icons/To-Do-List-128.png" platform="android" qualifier="xhdpi" />
+        <splash src="icons/To-Do-List-128.png" platform="android" qualifier="fr-xhdpi" />
+        <splash src="icons/To-Do-List-128.png" platform="android" qualifier="port-xxhdpi" />
+        <splash src="icons/To-Do-List-128.png" platform="android" qualifier="land-xxhdpi" />
+        <splash src="icons/To-Do-List-128.png" platform="android" qualifier="xxxhdpi" />
+        </widget>
